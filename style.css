@@ -1,0 +1,11 @@
+.hero-bg{
+    background-color:rgb(229, 242, 253);
+}
+.box{
+    box-shadow: 0px 0px 100px 5px rgb(214, 214, 214) !important;
+    padding-top: 15px;
+    margin-top: -5px !important;
+    z-index: inherit;
+    margin: auto;
+
+}
