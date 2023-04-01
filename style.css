@@ -9,3 +9,20 @@
     margin: auto;
 
 }
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: " ";
+    width: 0%;
+    bottom: 2px;
+    left: 50%;
+    height: 4px;
+    background: #0c0b0b;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: width 0.3s;
+}
+.nav-link:hover::after{
+    width: 50%;
+}
